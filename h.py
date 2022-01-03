@@ -80,7 +80,7 @@ def lisensi():
 		print "%s--[ %sCracked By Saz %s]--"%(i,gr,i)
 		print 40 * '\x1b[1;97m\xe2\x95\x90'
 		user = getpass.getpass('\n\x1b[1;91m[?] \x1b[1;92mMasukan Lisensi\x1b[1;91m : \x1b[1;97m')
-		if user == 'saz':
+		if user == 'Mhi':
 			print '\x1b[1;91m[!] %sSuccesfully'%(i)
 			time.sleep(1)
 			login()
@@ -107,7 +107,7 @@ def login():
         os.system('reset')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mفیس بک اکاؤنٹ لاگ ان کریں۔ \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
         tik()
