@@ -5,7 +5,7 @@
 ![alt text](https://img.shields.io/badge/Bash-green.svg)
 
 # Sample Image
-![alt text](https://github.com/Mantalstudio/Mhii/blob/main/WhatsApp%20Image%202022-01-03%20at%2021.45.07.jpeg
+![alt text](https://raw.githubusercontent.com/Mantalstudio/Mhii/main/f
 
 # How To Install
 ```
