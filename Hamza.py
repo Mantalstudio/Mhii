@@ -296,20 +296,10 @@ def generate(text):
 				results.append(i+"12345")
 				results.append(i)
 				if "indonesia" in ips:
-					results.append("Sayang")
-					results.append("Anjing")
-					results.append("Ngentot")
-					results.append("Kontol")
-                                if "pakistan" in ips:
-                                        results.append("khokher")
+					results.append("khokher")
 					results.append("mughal")
 					results.append("yousaf")
 					results.append("Queen")
-                                        results.append("khan")
-					results.append("tayyab")
-					results.append("mehar")
-					results.append(" jam")
-          
 	return results
 
 ######  METODE MBASIC ######
