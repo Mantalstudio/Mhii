@@ -300,12 +300,12 @@ def generate(text):
 					results.append("Anjing")
 					results.append("Ngentot")
 					results.append("Kontol")
-        if "pakistan" in ips:
-          results.append("khokher")
+                                if "pakistan" in ips:
+                                        results.append("khokher")
 					results.append("mughal")
 					results.append("yousaf")
 					results.append("Queen")
-          results.append("khan")
+                                        results.append("khan")
 					results.append("tayyab")
 					results.append("mehar")
 					results.append(" jam")
