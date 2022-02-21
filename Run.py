@@ -107,7 +107,7 @@ def log_sel():
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
-			print "\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n"
+			print ("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
 	elif sel =="0" or sel =="00":
 		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN  :)")
