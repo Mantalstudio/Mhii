@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Recode Izin Deck
+# Recode Mantalstudio
 # Versi 2.5
 
 import time,os
@@ -148,18 +148,12 @@ def clear():
 
 def banner():
 	print(u+"""
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│          												      │
-│          												      │
-│          			      Saqib								  │
-│          										   		      │
-│      													      │
-│       												      │
-│                                          VERSI 2.0.         │
-└─────────────────────────────────────────────────────────────┘
-AUTHOR : DIMZZ FIANSYAH
-GITHUB : github.com/Dimas-XV\n"""+h+line)
+┌────────────────────────────┐
+│     Saqib		             │
+│           VERSI 2.0.       │
+└────────────────────────────┘
+AUTHOR : Saqib Mahmood
+GITHUB : github.com/Saqib\n"""+h+line)
 MAX_IPV4 = ipaddress.IPv4Address._ALL_ONES # IP
 MAX_IPV6 = ipaddress.IPv6Address._ALL_ONES # IP
 
