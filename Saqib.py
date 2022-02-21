@@ -3,7 +3,6 @@
 # Decompiled from: Python 2.7.18 (default, Aug  8 2021, 22:51:48) 
 # [GCC 4.2.1 Compatible Android (6454773 based on r365631c2) Clang 9.0.8 (https:/
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, uuid, requests
-logo2 = '\n\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$\n| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/\n| $$$$| $$  | $$  | $$ /$$/   | $$\n| $$ $$ $$  | $$  | $$$$$/    | $$\n| $$  $$$$  | $$  | $$  $$    | $$\n| $$\\  $$$  | $$  | $$\\  $$   | $$\n| $$ \\  $$ /$$$$$$| $$ \\  $$ /$$$$$$\n|__/  \\__/|______/|__/  \\__/|______/\n                                        '
 
 def jenw():
     os.system('rm -rf .txt')
