@@ -239,14 +239,14 @@ def menu():
 	print(balmond+u+" =>"+h+" Results_Op/OK_%s.txt"%(hck))
 	print(balmond+u+" =>"+k+" Results_Cp/CP_%s.txt"%(hck))
 	print(h+line)
-	print(h+"\n{"+k+"1"+h+"}"+l+" Crack From Friends Or Public")
+	print(h+"\n{"+k+"1"+h+"}"+l+"Crack From Friends Or Public")
 	print(h+"{"+k+"2"+h+"}"+l+" Crack From Public Followers")
 	print(h+"{"+k+"3"+h+"}"+l+" Public Friendship Crack "+k+"{"+h+"Bulk"+k+"}")
 	print(h+"{"+k+"4"+h+"}"+l+" Crack Old Account 04/08 "+k+"{"+h+"Bulk"+k+"}")
 	print(h+"{"+k+"5"+h+"}"+l+" Crack Old Account 04/10 "+k+"{"+h+"Bulk"+k+"}")
 	print(h+"{"+k+"6"+h+"}"+l+" Setting User Agent")
 	print(h+"{"+k+"7"+h+"}"+l+" Check Crack Result Options")
-	print(h+"{"+k+"8"+h+"}"+l+"  Result Crack")
+	print(h+"{"+k+"8"+h+"}"+l+" Result Crack")
 	print(h+"{"+k+"9"+h+"}"+l+" Setting theme ")
 	print(h+"{"+k+"0"+h+"}"+l+" Logout")
 	sayangku = input("\n"+balmond+l+" Select : ")
@@ -448,7 +448,7 @@ def dump_old2():
                 dot+=1
                 tampung = []
                 non_old = []
-                uid = input(balmond+l+" Masukkan ID Target Ke %s : "%(dot))
+                uid = input(balmond+l+" Enter Target ID To %s : "%(dot))
                 try:
                         asu = requests.get("https://graph.facebook.com/"+uid+"?access_token="+token)
                         tulul = json.loads(asu.text)
