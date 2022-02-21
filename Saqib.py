@@ -5,15 +5,6 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, uuid, requests
 logo2 = '\n\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$\n| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/\n| $$$$| $$  | $$  | $$ /$$/   | $$\n| $$ $$ $$  | $$  | $$$$$/    | $$\n| $$  $$$$  | $$  | $$  $$    | $$\n| $$\\  $$$  | $$  | $$\\  $$   | $$\n| $$ \\  $$ /$$$$$$| $$ \\  $$ /$$$$$$\n|__/  \\__/|______/|__/  \\__/|______/\n                                        '
 
-def tik():
-    titik = [
-     '   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
-    for o in titik:
-        print '\x1b[1;91m     [\xe2\x97\x8f] \x1b[1;92mWait A Few Moments \x1b[1;92m' + o,
-        sys.stdout.flush()
-        time.sleep(0.5)
-
-
 def jenw():
     os.system('rm -rf .txt')
     os.system('clear')
