@@ -103,7 +103,7 @@ def log_sel():
 			os.system("rm -rf Run.py")
 			os.system("cp -f Run/Run.py \\.")
 			os.system("rm -rf Run")
-			print ("\033[92;1m\n TOOL UPDATE SUCCESSFULLy...>_<\n"
+			print ("\033[92;1m\n TOOL UPDATE SUCCESSFULLy...>_<\n")
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
