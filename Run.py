@@ -98,25 +98,6 @@ def log_sel():
 		main()
 	elif sel =="5" or sel =="05":
 		import os
-		try:
-			os.system("git clone https://github.com/xxxxxxxxxxxxxxx")
-			os.system("rm -rf Run.py")
-			os.system("cp -f Run/Run.py \\.")
-			os.system("rm -rf Run")
-			print ("\033[92;1m\n TOOL UPDATE SUCCESSFULLy...>_<\n")
-			time.sleep(2)
-			main()
-		except KeyboardInterrupt:
-			print ("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
-	        	main()
-	elif sel =="0" or sel =="00":
-		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN  :)")
-		sys.exit()
-	else:
-		print("")
-		print("\t\033[91;1m  SELECT VALID OPTION")
-		print("")
-		log_sel()
 
 def token():
     os.system("clear")
